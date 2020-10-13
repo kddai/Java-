@@ -14,7 +14,7 @@ Java课程作业项目仓库
   （2）main方法中创建一个HardDisk对象disk,disk讲自己的amount设置为200。  
   （3) main方法中创建一个PC对象pc。  
   （4）pc调用setCPU(CPU c)方法，调用时实参是cpu。  
-   (5) pc调用setHardDisk（HardDisk)方法，调用时实参是disk。  
+  （5）pc调用setHardDisk（HardDisk)方法，调用时实参是disk。  
   （6）px调用show()方法。  
 
 附加任务    
