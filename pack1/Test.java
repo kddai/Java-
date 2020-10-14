@@ -9,7 +9,7 @@ public class Test {
 		Harddisk HD=new Harddisk();             //创建一个HD对象 
 		cpu.setSpeed(2200);                     //cpu的speed设置为2200
 		HD.setAmount(200);                      //disk的amount设置为200
-		cpu.settype(2500);
+		cpu.settype("酷睿");
 		HD.setbrand(3650);
 		PC pc=new PC();                         //创建pc
 		pc.setCpu(cpu);
