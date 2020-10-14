@@ -39,16 +39,62 @@ Java课程作业项目仓库
   方法6.retuurn返回值：public int getSpeed(){  
 		                      return speed;                      
 	                           }   
-  方法7.输出结果public void show(){                                         //show()
+  方法7.输出结果public void show(){                                         
 		              System.out.println("cpu速度为："+cpu.getSpeed());    
 		               }  
 ## 实验结果  
 最终结果：  
+```
 cpu速度为：2200  
 硬盘容量为：200  
 cpu类型为：酷睿  
 硬盘品牌为：3650  
-
+```
+创建对象对象设置参数  
+```
+public class Test {
+	public static void main(String args[]){  
+		CPU cpu =new CPU();                    
+		Harddisk HD=new Harddisk();               
+		cpu.setSpeed(2200);                       
+		HD.setAmount(200);                        
+		cpu.settype("酷睿");  
+		HD.setbrand(3650);  
+		PC pc=new PC();                           
+		pc.setCpu(cpu);  
+		pc.setHarddisk(HD);  
+		pc.show();  
+	}  
+}  
+```
+getAmount()返回amount值
+```
+public int getAmount(){
+		return amount;	                          
+	}
+```
+字符型类型返回值
+```
+public String getType() {
+		return type;
+	}
+```
+参数h值赋给HD
+```
+public void setHarddisk(Harddisk h){
+		this.HD=h;                             
+	}
+```
+输出信息  
+```
+public void show(){                                    
+		System.out.println("cpu速度为："+cpu.getSpeed());
+		System.out.println("硬盘容量为："+HD.getAmount());  
+		System.out.println("cpu类型为："+cpu.getType());  
+		System.out.println("硬盘品牌为："+HD.getBrand());  
+		
+	}
+```
 ## 实验感想  
 了解了this语句赋值，调用实参get返回值。附加任务尝试了多包调用，private语法，不是很熟练。  
 在pc调用setCPU和setHarddisk时调用的实参和命名常常弄混淆。  
