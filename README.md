@@ -4,12 +4,12 @@ Java课程作业项目仓库
 # 阅读程序
 
 ## 实验目的  
-基本任务  
+### 基本任务
 1.用类描述计算机中CPU，的速度和硬盘的容量，要求Java应用程序有4个类，名字分别为PC、CPU、HardDisk和Test。其中Test是主类。  
   CPU类：要求getSpeed()返回speed值，要求setSpeed(int m)方法将参数m的值赋给speed;  
   HardDisk类：要求getAmount()返回amount的值，要求setAmount(int m)方法将参数m的值赋给amount；  
   PC类：要求setCPU(CPU c)将参数c的值赋给cpuu,要求setHarddisk(HardDisk h)方法将参数h的值赋给HD，要求shou()方法能显示cpu的速度和硬盘的容量；  
-  主类Test要求：  
+#### 主类Test要求：  
   （1）main方法中创建一个CPUU对象cpu,cpu将自己的speed设置为2200。  
   （2）main方法中创建一个HardDisk对象disk,disk讲自己的amount设置为200。  
   （3) main方法中创建一个PC对象pc。  
@@ -17,7 +17,7 @@ Java课程作业项目仓库
   （5）pc调用setHardDisk（HardDisk)方法，调用时实参是disk。  
   （6）px调用show()方法。  
 
-附加任务    
+## 附加任务    
   （1） 类中定义不少于两个构造方法；  
   （2） 每个类定义不少于2个属性且属性类型多养护U啊；  
   （3） 尝试定义属性的修饰符多样化，类中定义方法操作属性，避免直接通过“类对象.属性"的形式访问属性值；且定义的方法应该符合常理的逻辑判断；  
