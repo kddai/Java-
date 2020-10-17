@@ -13,7 +13,7 @@ Java课程作业项目仓库
   主类Test要求：  
   （1）main方法中创建一个CPU对象cpu,cpu将自己的speed设置为2200。  
   （2）main方法中创建一个HardDisk对象disk,disk讲自己的amount设置为200。  
-  （3) main方法中创建一个PC对象pc。  
+  （3）main方法中创建一个PC对象pc。  
   （4）pc调用setCPU(CPU c)方法，调用时实参是cpu。  
   （5）pc调用setHardDisk（HardDisk)方法，调用时实参是disk。  
   （6）px调用show()方法。  
