@@ -4,13 +4,13 @@ Java课程作业项目仓库
 # 阅读程序
 
 ## 实验目的  
-根据所学方法实现Java计算机任务。  
+根据书中要求条件及所学方法实现Java计算机任务。  
 ### 基本任务
 1.用类描述计算机中CPU，的速度和硬盘的容量，要求Java应用程序有4个类，名字分别为PC、CPU、HardDisk和Test。其中Test是主类。  
   CPU类：要求getSpeed()返回speed值，要求setSpeed(int m)方法将参数m的值赋给speed;  
   HardDisk类：要求getAmount()返回amount的值，要求setAmount(int m)方法将参数m的值赋给amount；  
   PC类：要求setCPU(CPU c)将参数c的值赋给cpuu,要求setHarddisk(HardDisk h)方法将参数h的值赋给HD，要求shou()方法能显示cpu的速度和硬盘的容量；  
-#### 主类Test要求：  
+  主类Test要求：  
   （1）main方法中创建一个CPU对象cpu,cpu将自己的speed设置为2200。  
   （2）main方法中创建一个HardDisk对象disk,disk讲自己的amount设置为200。  
   （3) main方法中创建一个PC对象pc。  
@@ -25,8 +25,8 @@ Java课程作业项目仓库
   （4） 尝试把本次实验的多个类放在不同的包中，体会修饰private的用法。  
   
 ## 实验过程  
-  1.创建Java项目命名kevin，创建包命名pack1-pack4,创建类名为Test，CPU，HardDisk,PC;  
-  2.以Test为主类对其它三类根据书中要求依次编写调用。  
+  1.创建Java项目命名kevin，创建包命名pack1-pack4,创建类名分别为Test，CPU，HardDisk,PC;  
+  2.以Test为主类对其它三类根据书中要求及附加任务依次编写调用。  
   
 ## 核心方法  
   方法1.构造方法：public Harddisk(){  
