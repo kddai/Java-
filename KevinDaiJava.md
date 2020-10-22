@@ -7,9 +7,9 @@ Java课程作业项目仓库
 根据书中要求条件及所学方法实现Java计算机任务。  
 ### 基本任务
 1.用类描述计算机中CPU，的速度和硬盘的容量，要求Java应用程序有4个类，名字分别为PC、CPU、HardDisk和Test。其中Test是主类。  
-  CPU类：要求getSpeed()返回speed值，要求setSpeed(int m)方法将参数m的值赋给speed;  
-  HardDisk类：要求getAmount()返回amount的值，要求setAmount(int m)方法将参数m的值赋给amount；  
-  PC类：要求setCPU(CPU c)将参数c的值赋给cpuu,要求setHarddisk(HardDisk h)方法将参数h的值赋给HD，要求shou()方法能显示cpu的速度和硬盘的容量；  
+  （1）CPU类：要求getSpeed()返回speed值，要求setSpeed(int m)方法将参数m的值赋给speed;  
+  （2）HardDisk类：要求getAmount()返回amount的值，要求setAmount(int m)方法将参数m的值赋给amount；  
+  （3）PC类：要求setCPU(CPU c)将参数c的值赋给cpuu,要求setHarddisk(HardDisk h)方法将参数h的值赋给HD，要求shou()方法能显示cpu的速度和硬盘的容量；  
   主类Test要求：  
   （1）main方法中创建一个CPU对象cpu,cpu将自己的speed设置为2200。  
   （2）main方法中创建一个HardDisk对象disk,disk讲自己的amount设置为200。  
